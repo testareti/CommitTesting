@@ -10,3 +10,56 @@ commit 3
 how are you 
 
 ddddddddddddddddddddddd
+
+compile "org.springframework:spring-aop:$springVersion"
+	compile "org.springframework:spring-aspects:$springVersion"
+	compile "org.springframework:spring-expression:$springVersion"
+	compile "org.springframework:spring-oxm:$springVersion"
+	compile "org.springframework:spring-tx:$springVersion"
+	compile "org.springframework:spring-beans:$springVersion"
+	compile "org.springframework:spring-context:$springVersion"
+	compile "org.springframework:spring-context-support:$springVersion"
+	compile "org.springframework:spring-core:$springVersion"
+	compile "org.springframework:spring-jdbc:$springVersion"
+	compile "org.springframework:spring-jms:$springVersion"
+	compile "org.springframework:spring-orm:$springVersion"
+	compile "org.springframework:spring-web:$springVersion"
+	compile "org.springframework:spring-webmvc:$springVersion"	
+	compile 'javax.servlet:servlet-api:2.5-200610181302'
+	compile "org.springframework.ws:spring-ws-core:$springWSVersion"
+	compile "org.springframework.ws:spring-ws-security:$springWSVersion"
+	compile "org.springframework.ws:spring-ws-support:$springWSVersion"
+	compile "org.springframework.ws:spring-xml:$springWSVersion"
+	//compile 'org.tiaa:TiaaAxisClientExtras:2005.11.03.09.06.17'	
+	
+	compile 'com.sun.msv.datatype.xsd:xsdlib:20060615'
+	
+	compile 'org.glassfish.jersey.core:jersey-server:2.25'
+	compile 'org.glassfish.jersey.core:jersey-common:2.25'
+	compile 'org.glassfish.jersey.core:jersey-client:2.25'
+	compile group: 'org.glassfish.jersey.bundles.repackaged', name: 'jersey-guava', version: '2.25'
+	compile 'org.glassfish.jersey.containers:jersey-container-servlet:2.25'
+	compile group: 'org.glassfish.jersey.ext', name: 'jersey-spring3', version: '2.25'
+	compile group: 'org.glassfish.jersey.ext', name: 'jersey-entity-filtering', version: '2.25'
+	compile group: 'org.glassfish.hk2.external', name: 'bean-validator', version: '2.5.0-b01'
+	compile group: 'org.glassfish.hk2.external', name: 'javax.inject', version: '2.5.0-b10'
+	compile group: 'org.glassfish.hk2.external', name: 'aopalliance-repackaged', version: '2.5.0-b01'
+	compile group: 'org.glassfish.hk2', name: 'hk2-locator', version: '2.5.0-b01'
+	compile group: 'org.glassfish.hk2', name: 'hk2-api', version: '2.5.0-b10'
+	compile group: 'org.glassfish.hk2', name: 'hk2-utils', version: '2.5.0-b01'
+	compile group: 'org.glassfish.hk2', name: 'osgi-resource-locator', version: '2.5.0-b01'	
+	compile group: 'org.glassfish.hk2', name: 'spring-bridge', version: '2.5.0-b43'	
+	compile group: 'org.glassfish.jersey.media', name: 'jersey-media-jaxb', version: '2.25'
+	compile 'org.glassfish.jersey.media:jersey-media-json-jackson:2.25'
+//	compile group: 'org.glassfish.jersey.inject', name: 'jersey-hk2', version: '2.26'
+//	compile group: 'org.glassfish.jersey.inject', name: 'project', version: '2.26'		
+	compile group: 'org.glassfish.jersey.bundles', name: 'jaxrs-ri', version: '2.25'
+	compile group: 'org.glassfish.jersey', name: 'jersey-bom', version: '2.25'
+	compile group: 'org.glassfish.jersey.media', name: 'jersey-media-multipart', version: '2.25'	
+	compile group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.9.0'
+	compile group: 'com.fasterxml.jackson.jaxrs', name: 'jackson-jaxrs-base', version: '2.9.0'
+	compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.9.0'
+	compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.0'
+	compile group: 'com.fasterxml.jackson.jaxrs', name: 'jackson-jaxrs-json-provider', version: '2.9.0'
+	compile group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.9.0'
+	compile group: 'com.fasterxml.jackson.module', name: 'jackson-module-jaxb-annotations', version: '2.9.0'
