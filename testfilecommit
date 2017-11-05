@@ -11,6 +11,12 @@ how are you
 
 ddddddddddddddddddddddd
 
+ext {
+	atomFrameworkVersion = '3.24.+'
+	springVersion = '4.3.7.RELEASE'
+	springWSVersion = '2.4.0.RELEASE'
+}
+
 compile "org.springframework:spring-aop:$springVersion"
 	compile "org.springframework:spring-aspects:$springVersion"
 	compile "org.springframework:spring-expression:$springVersion"
